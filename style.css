@@ -1,0 +1,33 @@
+:root {
+    --cream: #fbf9db;
+    --matcha: #949346;
+    --pale-sage: #c9d2a3;
+}
+
+body {
+    background: var(--cream);
+    border-left: 200px solid var(--matcha);
+    margin: 0;
+}
+
+header {
+    padding: 1rem 0;
+    margin: 0;
+    font-size: small;
+}
+
+main {
+    margin: 0 2rem;
+}
+
+#logo {
+    width: 100px;
+    border: none;
+    padding: 10px;
+}
+
+footer {
+   padding: 1rem 0;
+   text-align: center;
+   font-size: small;
+}
